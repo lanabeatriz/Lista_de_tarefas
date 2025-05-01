@@ -63,6 +63,7 @@ while True:
         listar_tarefas(lista_de_tarefas)
 
     elif opcao == '3':
+        tarefa = input("Insira o número da tarefa que deseja deletar: ")
         if tarefa_valida(tarefa, lista_de_tarefas):
              deletar_tarefa(lista_de_tarefas, int(tarefa))
         else:
